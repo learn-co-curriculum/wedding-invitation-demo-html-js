@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Amita|Cinzel|Dancing+Script|Fjalla+One|Gentium+Basic|Great+Vibes|Lobster|Old+Standard+TT|Pacifico|Satisfy|Tangerine|Poiret+One" rel="stylesheet">
+  <link rel="stylesheet" href="styles/index.css">
+  <title>Wedding Invitation Designer</title>
+</head>
+<body>
+  <header>
+    Wedding Invitation Designer
+
+  </header>
+  <div class="main">
+    <section id="form">
+      <form class="style">
+          <input class="radio" type="radio" id="formal" name="style" checked="checked"><label for="formal">Formal</label>
+          <input class="radio" type="radio" id="spring" name="style"><label for="spring">Spring</label>
+          <input class="radio" type="radio" id="artDeco" name="style"><label for="artDeco">Art Deco</label>
+      </form>
+      <hr>
+      <form>
+        <div>
+          <div><label for="bride">Bride's First Name:</label></div>
+          <input type="text" id="bride" autocomplete='given-name'/>
+        </div>
+        <div>
+          <div><label for="groom">Groom's First Name:</label></div>
+          <input type="text" id="groom" autocomplete='given-name'/>
+        </div>
+        <div>
+          <div><label for="lastName">Last Name:</label></div>
+          <input type="text" id="lastName" autocomplete='family-name'/>
+        </div>
+        <div>
+          <div><label for="weddingDate">Date:</label></div>
+          <input type="datetime" id="weddingDate"/>
+        </div>
+        <div>
+          <div><label for="address">Wedding Location:</label></div>
+          <input type="text" id="address" autocomplete='address-line1'/>
+        </div>
+
+      </form>
+    </section>
+    <section id="invitation" class="formal">
+        <div> </div>
+        <div id="initialsInvite"> </div>
+        <div>You are cordially invited to the wedding of</div>
+        <div>
+          <span id="brideInvite" class="bride"></span>
+          &
+          <span id="groomInvite" class="groom"></span>
+        </div>
+        <div id="lastNameInvite" class="last_name"></div>
+        <div id="weddingDateInvite" class="date" ></div>
+        <div id="addressInvite" class="address" ></div>
+        <div> </div>
+    </section>
+  </div>
+  <footer>
+  </footer>
+  <script src='./js/index.js'>
+  </script>
+</body>
+</html>

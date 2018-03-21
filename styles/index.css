@@ -1,0 +1,96 @@
+body {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  height: 90vh;
+  width: 100vw;
+}
+
+header {
+  font-size: 450%;
+  height: 90px;
+  line-height: 100px;
+  text-align: left;
+  padding-left: 1em;
+  font-family: "Tangerine", cursive;
+  box-shadow: 3px 3px rgba(100, 100, 100, 0.3);
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 50% 600px;
+  height: 100%;
+}
+
+.style {
+  text-align: center;
+  clear: both;
+  display: inline-block;
+}
+.style input {
+  opacity: 0;
+  float: left;
+}
+.style label {
+  float: left;
+}
+
+#form {
+  text-align: left;
+  font-size: 150%;
+  height: 100%;
+  padding: 1em;
+}
+input {
+  font-size: 100%;
+  width: 100%;
+}
+
+#invitation {
+  box-shadow: 1px black;
+  margin: 1em;
+  font-size: 150%;
+  width: 100%;
+  transition: background-color, color, font-family, 1s;
+  display: grid;
+
+  grid-template-rows: 20% 15% 5% 10% 15% 5% 5% 5%;
+}
+
+#initialsInvite {
+  font-size: 250%;
+}
+
+#brideInvite {
+  font-size: 200%;
+}
+#groomInvite {
+  font-size: 200%;
+}
+#lastNameInvite {
+  font-size: 250%;
+}
+#weddingDateInvite {
+  font-size: 140%;
+}
+#addressInvite {
+  font-size: 170%;
+}
+.formal {
+  background: url("../images/floral-background2.jpg") no-repeat;
+  background-size: contain;
+  font-family: "Tangerine", cursive;
+}
+
+.spring {
+  background: url("../images/floral-background1.jpg") no-repeat;
+  background-size: contain;
+  font-family: "Dancing Script", ariel;
+}
+
+.artDeco {
+  background: url("../images/artdeco.jpg") no-repeat;
+  background-size: contain;
+  color: white;
+  font-family: "Poiret One";
+}
