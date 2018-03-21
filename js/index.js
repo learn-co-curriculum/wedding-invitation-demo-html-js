@@ -16,11 +16,10 @@ document.addEventListener(
 );
 
 function handleClick(event) {
-  document.getElementById("invitation").className = event.target.id;
+  document.getElementById("invitationCard").className = event.target.id;
 }
 
 function handleInput(event) {
-  console.log(event);
   document.getElementById(`${event.target.id}Invite`).innerHTML =
     event.target.value;
 
