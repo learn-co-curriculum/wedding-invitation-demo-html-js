@@ -41,9 +41,9 @@ header {
   height: 100%;
   padding: 1em;
 }
-input {
+
+.textInput {
   font-size: 100%;
-  width: 100%;
 }
 
 .invitation {
